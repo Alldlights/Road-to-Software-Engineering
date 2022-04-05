@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ * main - a function that calculates the area of a solid shape
+ * @n1: first input which is length
+ * @n2: second input which is width
+ * @Area: the resulting Area
+ * Return: Always 0
+ */
+
+int main()
+{
+    int n1, n2; //declaring the integers as local variable
+    float Area;
+
+    printf("\n Enter Lenght:"); //enter value of lenght
+    scanf("%d", &n1);
+    printf("\n Enter width:"); //enter value of width
+    scanf("%d", &n2);
+
+    Area = (n1 * n2); //calculates area of the solid shape
+    {
+        printf("\n %.2f is Area", Area);
+    }
+    return (0);
+}
